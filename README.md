@@ -5,7 +5,7 @@ Sketch Scape
 <h5 align="center">
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2509.06566-b31b1b.svg?logo=arXiv)](http://arxiv.org/abs/2509.06566)
-[![BMVC](https://img.shields.io/badge/Conference-BMVC2025-green)](https://bmvc2025.org/)
+[![BMVC](https://img.shields.io/badge/Conference-BMVC2025-green)](https://bmvc2025.bmva.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.5%2B-red?logo=pytorch)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/Code%20License-GNU-yellow)](https://www.gnu.org/licenses/gpl-3.0.en.html)
