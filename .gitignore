@@ -1,0 +1,16 @@
+/.idea
+/fscoco
+/__pycache__
+/models
+/streamlit-app/__pycache__
+result.html
+tmp.py
+/Flicker8k_Dataset
+/val2017
+/sketchy
+/SketchyCOCO
+/SketchyCOCO-SL
+photo_embeddings.npy
+sketch_embeddings.npy
+*.pth
+*.npy
