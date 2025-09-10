@@ -41,9 +41,9 @@ manner, accepting both images and sketches. During training, the embeddings are 
 on a batch level, aligning the similarity matrix with a target one, using an ICon based loss function.
 In the inference stage, the encoder is simply generating embeddings that are then compared using cosine distance.
 
-## Replicating the results
+## :recycle: Replicating the results
 
-### :file_folder: FSCOCO dataset
+### FSCOCO dataset model weights
 
 You can download the dataset from the official [FS-COCO website](https://fscoco.github.io). Extract the dataset into the
 project folder.
@@ -74,7 +74,7 @@ Place the downloaded model files in the models folder.
     ...
 ```
 
-### :wrench: Installation
+### Installation
 
 To install required libraries run:
 
@@ -82,10 +82,8 @@ To install required libraries run:
 pip install -r requirements.txt
 ```
 
-The default installation includes the cpu version of torch. To use CUDA, replace it with the appropriate torch version.
-Tested on *python3.10* .
+The default installation includes the cpu version of torch. To use CUDA, replace it with the appropriate torch version. Tested on *Python 3.10*.
 
-TODO
 
 ### Running the code
 
@@ -104,7 +102,7 @@ You can train the model using *train.py* and evaluate the trained models using *
 | `--data_dir`   | Directory for the dataset.                           | `fscoco` |
 | `--models`     | Paths to the model files.                            | `''`     |
 
-### :clipboard: Running the evaluation
+### Running the evaluation
 
 To replicate results on the FS-COCO dataset from the paper, run the code with the following arguments.
 
